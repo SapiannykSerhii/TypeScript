@@ -17,6 +17,7 @@ export function Product({product}: ProductProps) {
     >
       <img src={product.image} className="w-1/6" alt={ product.title} />
       <p>{product.title}</p>
+      <p className="font-bold">$: {product.price}</p>
 
       <button
         className={btnClasses.join(' ')}
@@ -28,7 +29,7 @@ export function Product({product}: ProductProps) {
 
       {details && <div>
         <p>{product.description}</p>
-        <p>Rate: <span style={{ fontWeight: 'bold',}}>{product.rating.rate}</span></p>
+        <p>Rate: <span style={{ fontWeight: 'bold',}}>{product?.rating?.rate}</span></p>
       </div>}
       
     </div>
