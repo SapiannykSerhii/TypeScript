@@ -1,0 +1,5 @@
+export function AboutPage() {
+  return (
+    <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus lobortis sem ac laoreet. Mauris felis odio, tincidunt eu sapien vitae, elementum sodales risus. Praesent molestie orci at varius malesuada. Pellentesque cursus libero sed ex fermentum, in tempor augue lacinia. Praesent at justo at tortor tincidunt aliquet vel eu turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ut commodo ligula. Vestibulum tortor justo, faucibus et accumsan sit amet, volutpat vel neque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent ac ligula in lorem luctus pretium. Maecenas nec varius diam, id tempus risus. Aliquam erat volutpat. Quisque posuere nisi dui, at hendrerit libero sodales id. Maecenas finibus, nulla at rhoncus vehicula, erat lacus vehicula arcu, quis vestibulum libero neque ut elit. Vestibulum molestie viverra mi. Curabitur accumsan, purus a posuere sollicitudin, quam risus sollicitudin neque, rutrum commodo augue nunc in libero.</div>
+  )
+}
